@@ -113,7 +113,7 @@ async function experimentInit() {
   instrText = new visual.TextStim({
     win: psychoJS.window,
     name: 'instrText',
-    text: 'OK. Ready for the real thing?\n\nRemember, ignore the word itself; press:\nLeft for red LETTERS\nDown for green LETTERS\nRight for blue LETTERS\n(Esc will quit)\n\nPress any key to continue',
+    text: '现在开始一个新的实验\n\n接下来请按照下面的指导语按健反应:\n若是红色字母按左方向键\n若是绿色字母按下方向键\n若是蓝色字母按右方向键\n\n按esc退出\n\nPress any key to continue',
     font: 'Arial',
     units: 'height', 
     pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0,
